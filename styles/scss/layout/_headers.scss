@@ -1,0 +1,38 @@
+.site-header {
+  padding: 40px 0;
+  background-color: $gray;
+  .container {
+    @include display-flex;
+    @include justify-content(space-between);
+    @include align-items(center);
+  }
+}
+.logo-wrap {
+ position: relative;
+  img {
+    max-width: 160px;
+  }
+  h1 {
+    position: absolute;
+    text-indent: -9999px;
+  }
+}
+.site-nav {
+  .nav-list {
+    li {
+      float: left;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #31353e;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 28px;
+    transition: 0.2s;
+    &:hover {
+      background-color: #dd4b2b;
+      color: #ffffff;
+    }
+  }
+}
