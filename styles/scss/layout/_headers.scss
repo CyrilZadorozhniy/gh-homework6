@@ -27,12 +27,25 @@
     text-decoration: none;
     color: #31353e;
     font-size: 18px;
-    padding: 12px 20px;
+    margin-left: -15px;
+    padding: 12px 26px;
     border-radius: 28px;
     transition: 0.2s;
     &:hover {
       background-color: #dd4b2b;
       color: #ffffff;
     }
+  }
+}
+.newslater-header {
+  max-width: 600px;
+  margin: 0 auto;
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 30px;
   }
 }
